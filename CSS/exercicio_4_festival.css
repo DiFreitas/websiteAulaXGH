@@ -208,7 +208,7 @@ div .seta{
   position:relative;
   margin-left:50%;
   transform:translate(-50%);
-  background-image:url(/exercicio_4/images/backgroundTexture.png);
+  background-image:url(images/backgroundTexture.png);
   width:1440px;
   height:700px;
 }
