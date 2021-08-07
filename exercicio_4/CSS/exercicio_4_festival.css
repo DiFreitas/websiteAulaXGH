@@ -1,0 +1,393 @@
+/* RESET */
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+address,
+em,
+img,
+strong,
+u,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+article,
+aside, 
+figure,
+figcaption,
+footer,
+header,
+nav,
+section,
+time,
+audio,
+video{
+  border:0;
+  font-family:'Open Sans', sans-serif;
+  font-size:16px;
+  margin:0;
+  padding:0;
+  vertical-align:baseline;
+  box-sizing:border-box;
+}
+html{scroll-behavior:smooth;}
+body{
+  background:#fff;
+  color:#333;
+  line-height:24px;
+}
+ol, 
+ul,
+li{list-style:none;}
+strong{font-weight:bold;}
+table{
+  border-collapse:collapse;
+  border-spacing:0;
+  width:100%;
+}
+img{width:100%;}
+p{letter-spacing:1px;}
+a,
+a:hover{
+  color:#333;
+  text-decoration:none;
+  cursor:pointer;
+}
+:focus{outline:0;}
+:hover{transition:.3s ease;}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="search"],
+input[type="url"],
+textarea,
+select{
+  border:0;
+  border-bottom:1px solid #000;
+  color:#333;
+  padding:8px 0;
+  font:16px 'Open Sans', sans-serif;
+  background:transparent;
+  width:100%;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="search"]:focus,
+input[type="url"]:focus,
+textarea:focus,
+select:focus{border-color:#900;}
+input[type="submit"],
+input[type="button"],
+button{
+  border:1px solid #000;
+  text-transform:uppercase;
+  padding:10px 30px;
+  color:#333;
+  font:16px 'Open Sans', sans-serif;
+  background:transparent;
+}
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder,
+input[type="search"]::placeholder,
+input[type="url"]::placeholder{color:#333;}
+
+/* FIM DO RESET */
+.container{
+    width:1135px;
+    margin:0 auto;
+}
+h1{
+    color:#088B38;
+    font:bold 48px 'Raleway', sans-serif;
+    margin-bottom:24px;
+}
+.festival-1{
+    display:flex;
+    margin-top:123px;
+    margin-bottom:176px;
+    justify-content:flex-end;
+}
+.festival-1 figure{
+  width:289px;
+  margin-right:55px;
+}
+.festival-1 article{
+  width:626px;
+  margin-top:29px;
+}
+.festival-1 p{
+  margin-bottom:20px;
+  width:560px;
+}
+.festival-2{
+  width:1135px;
+  height:781px;
+  margin-bottom:62px;
+}
+h2{
+  color:#088B38;
+  font:bold 40px 'Raleway', sans-serif;
+  margin-bottom:24px;
+}
+.domo{display:flex;
+  align-items: center;
+margin-top:62px;}
+.domo img{
+  width:656px;
+}
+.domo h3{
+  font:bold 24px 'Raleway', sans-serif;
+  border-left:solid 4px #088B38;
+  padding-left:4px;
+  margin-bottom:19px;
+}
+.preco{
+  display:flex;
+  align-items:baseline;
+  margin-top:40px;
+}
+.preco h4{font-size:24px;}
+.preco p{
+  font-size:14px;
+  margin-left:12px;
+  text-transform:uppercase;
+}
+.lista{
+  margin-top:40px;
+}
+.lista img{
+  width:24.34px;
+  padding-right:12px;
+}
+.lista li{
+  color:#088B38;
+  font-size:14px;
+}
+.festival-3 h2{
+  margin-left:170px;
+  display:inline-block;
+}
+.visao{
+  width:800px;
+}
+.visao_imagens{
+  justify-content: center;
+  display:flex;
+  align-items: center;;
+}
+div .seta{
+  margin:0 24px;
+  width:60px;
+  height:60px;
+}
+.ingresso{
+  margin-top:201px;
+  position:relative;
+  margin-left:50%;
+  transform:translate(-50%);
+  background-image:url(/exercicio_4/images/backgroundTexture.png);
+  width:1440px;
+  height:700px;
+}
+.flor_esquerda{
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:506px;
+}
+.ingresso h2{
+  padding-top:80px;
+  text-align:center;
+}
+.flor_direita{
+  position:absolute;
+  top:0;
+  right:0;
+  width:700px;
+}
+.box_ingresso{
+  display:flex;
+  justify-content:center;
+}
+.box1,
+.box2{
+  z-index:999;
+  width:560px;
+  height:447px;
+  border:solid 2px #088B38;
+  text-align:center;
+}
+.box1{margin-right:15px;}
+.box1 h3,.box2 h3{
+  padding-top:40px;
+  font-size:32px;
+  color:#088B38;
+  font-weight:bold;
+}
+.box1 h4,.box2 h4{
+  padding-top:16px;
+  font-size:24px;
+}
+.linha1,
+.linha2{
+  margin:32px 0 30px 0;
+  border-top:solid 2px #088B38;
+  width:40px;
+  margin-left:50%;
+  transform:translate(-50%);
+}
+.box1 p, .box2 p{
+  padding-top:16px;
+  text-transform:uppercase;
+}
+article{
+  margin-bottom:80px;
+}
+.box_ingresso a{
+  cursor: pointer;
+  padding:25px 134px;
+  text-align:center;
+  background-color:#088B38;
+  color:#fff;
+}
+button:hover{cursor:pointer;}
+.seguranca{
+  margin-top:202px;
+  display:flex;
+  align-items:center;
+  width:1136px;
+  height:344px;
+}
+.seguranca p{padding-top:30px;}
+.seguranca iframe{
+  width:560px;
+  height:344px;
+}
+.em_casa{
+  margin-top:200px;
+  display:flex;
+  align-items: center;
+  width:1136px;
+  height:513px;
+}
+.em_casa img{
+  width:513px;
+  margin-right:63px;
+}
+.letra_preta{
+  color:#000;
+  font:bold 40px 'Raleway', sans-serif;
+}
+.em_casa p{width:458px; height:72px;}
+.cadastro{
+  margin-top:157px;
+  margin-left:94px;
+  width:928px;
+  height:237px;
+  border-top:solid  2px #088B38;
+}
+.cadastro h3{
+  height:29px;
+  padding-top:64px;
+  font-size:24px;
+  line-height:120%;
+  color: #088B38;
+}
+.preencher{
+  display:flex;
+  justify-content:space-between;
+}
+input{
+  font-size:14px;
+  margin-top:53px;
+  width:368px;
+  height:56px;
+  border:solid 1px #000;
+}
+.preencher a{
+  margin-top:53px;
+  cursor: pointer;
+  padding:16px 32px;
+  text-align:center;
+  background-color:#088B38;
+  color:#fff;
+}
+footer{
+  width:1440px;
+  height:670px;
+  margin-left:50%;
+  transform:translate(-50%);
+}
+/* MOBILE */
+@media screen and (max-width: 779px){
+  .container,
+  .festival-1 p,
+  .festival-1 article,
+  .festival-2{width:100%;}
+  .container > section{padding:0 24px;}
+  .festival-1{
+    display:block;
+    margin-top: 24px;
+    margin-bottom:40px;
+  }
+  .festival-1 figure{display:none;}
+  h1{
+    font-size:32px;
+    line-height:44px;
+  }
+  p{
+    line-height:21,28px;
+    font-size:14px;
+    
+  }
+  h2{font-size:24px;}
+  .festival-2{margin-bottom:24px;}
+  .domo{
+    display:block;
+    position:relative;
+  }
+  .domo h3{
+    position:absolute;
+    top:0;
+  }
+  .domo img{
+    margin-left:50%;
+    transform:translate(-50%);
+    position:absolute;
+    top:54px;
+    width:300px;
+  }
+  .domo p{
+    position:absolute;
+    top:290px;
+    font-size:14px;
+  }
+  .preco{
+    position:absolute;
+    top:482px;
+  }
+}
+
